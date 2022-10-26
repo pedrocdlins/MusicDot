@@ -1,0 +1,103 @@
+:root {
+    --azulClaro : #2d5474;
+    --azulEscuro: #2e4a64;
+    --branco: #FFFFFF;
+    --fontPrincipal: 'Montserrat', sans-serif;
+}
+
+body {
+    font-family: var(--fontPrincipal);
+    color: var(--azulEscuro);
+}
+
+.cabecalho {
+    background:  var(--azulClaro);
+}
+
+.cabecalho__logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    padding: 10px;
+}
+
+.cabecalho__menu {
+    background: var(--azulEscuro);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style: none;
+    padding: 15px;
+}
+
+.cabecalho__item-link {
+    color: var(--branco);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 13px;
+}
+
+main {
+    font-weight: 500;
+}
+
+.cabecalho__logo-branco {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    padding: 10px;
+}
+
+.rodape {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.endereco__rodape {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.rodape__social {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 15px;
+}
+
+.rodape__social-logo {
+    width: 40px;
+}
+
+.titulo__cursos {
+    font-weight: 700;
+    font-size: 22px;
+    text-transform: uppercase;
+    padding-bottom: 15px;
+}
+
+.menu__cursos {
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+.menu__cursos-lista{
+    font-size: 15px;
+    padding-bottom: 5px;
+}
+
+.menu__cursos-link {
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.titulo__cursos-dot {
+    text-align: center;
+}
+
+
+
